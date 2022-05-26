@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+
+<link rel="stylesheet" href="" class="css/css">
+<style>
+    body{
+    
+
+        margin: 0px;
+        padding:0px;
+        background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/30-day-challenge-bird-dog-ab-wo0-1576613500.jpg");
+        background-repeat: no-repeat;
+  background-size: 1370px 670px;
+    }
+    .left{
+        /*border: 3px solid black;*/
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 10px;
+    }
+    .left img{
+        width: 80px;
+    }
+    .left div{
+        text-align: center;
+        color: rgb(242, 245, 241);
+        font-size: 19px;
+    }
+    .mid{
+        
+        /*border: 3px solid black;*/
+        display: block;
+        width: 393px;
+        margin: 10px auto;
+        font-size: 17px;
+        
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 10px;
+        /*border: 3px solid black;*/
+        display: inline-block;
+    }
+    
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a:hover{
+        text-decoration:wavy;
+        color:black;
+    }
+    .btn{
+        border-radius: 10px;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background-color: brown;
+
+    }
+    .container{
+        text-align: center;
+        border:2px solid black;
+        margin: 117px 33px;
+        padding: 0px 30px;
+        border-radius: 5%;
+        width: 600px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        padding:6px;
+        margin:2px;
+        width: max-content;
+        border-radius: 2px; 
+        font-size: 15px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+</style>
+<body>
+   <header class="header">
+       <div class="left">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgT_cnCQyhy39UzY2zMbVhfCUqwQk18J4CuA&usqp=CAU" alt="logo">
+        <div>Sanya's gym</div>
+
+       </div>
+       <div class="mid">
+           <ul class="navbar">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Fitness calculator </a></li>
+           <li><a href="#">Contact us</a></li>
+       </ul>
+       </div>
+       <div class="right">
+           <button class="btn">CALL US</button><button class="btn">EMAIL US</button>
+
+       </div>
+   </header>
+   <div class="container">
+      <h1>Who are you waiting for?</h1>
+      <h2>HURRY, and join the best gym in noida now.</h2>
+      <form action="action.php">
+          <div class="form-group">
+              <input type="text" name="" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your city name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your email id">
+        </div>
+        
+        <button class="btn">Submit</button>
+      </form>
+   </div>
+</body>
+</html>
